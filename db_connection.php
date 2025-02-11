@@ -38,6 +38,6 @@ if ($conn->query($alterSql) === TRUE) {
     echo "Error altering table: " . $conn->error;
 }
 
-// Close connection
+// // Close connection
 $conn->close();
 ?>
